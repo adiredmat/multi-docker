@@ -12,7 +12,7 @@ after_success:
   - docker build -t mybr0d0cker/multi-client ./client
   - docker build -t mybr0d0cker/multi-nginx ./nginx
   - docker build -t mybr0d0cker/multi-server ./server
-  - docker build -t mybr0d0cker/multi-workder ./worker
+  - docker build -t mybr0d0cker/multi-worker ./worker
 # Log in to the docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
 # Ambil those images and push them to docker hub
