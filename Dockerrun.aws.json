@@ -1,5 +1,5 @@
 {
-    "AWSDockerrunVersion": 2,
+    "AWSDockerrunVersion": 3,
     "containerDefinitions": [
         {
             "name": "client",
